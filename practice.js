@@ -89,7 +89,8 @@ const vocabAgain = [ "let", "const", "destructuring", "spread", "rest", "arrow f
 // using assignment destructuring, create three variables notVar, alsoNotVar, and everythingElse
 // notVar should be "let", alsoNotVar should be "const", and everythingElse should contain the rest of the array.
 
-
+var notVar = [vocabAgain[0]];
+var alsoNotVar = []
 
 ////////////
 /* ARRAYS */
@@ -101,6 +102,7 @@ const lastFive = [ 6, 7, 8, 9, 10 ];
 
 // using the spread operator, create a new array named oneThroughTen.
 // You should use the above arrays (and 2 missing digits of your own)
+var oneThroughTen = [...firstThree, 4, 5, ...lastFive];
 
 
 // do not modify
